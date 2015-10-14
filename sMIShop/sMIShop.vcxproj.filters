@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3a4479d1-a4ba-4788-af65-a2e28400de68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{59de73d7-d185-4539-a39c-5acc113283c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{038e76a8-5e93-4d7e-a5dd-08251615aa74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\OpticalFlow">
+      <UniqueIdentifier>{83df736d-0af5-4b24-8f92-e00c2265eb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\GraphCut">
+      <UniqueIdentifier>{3dfb66b8-dc96-404d-85db-fe3de316fadf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nav_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nav_large_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_small_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\info.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sMIShop.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sMIShopDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sMIShop.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sMIShop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sMIShopDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sMIShopView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splVoxLib\Voxel.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="splVoxLib\VoxelShell.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="splVoxLib\Util.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="splVoxLib\vtkSettings.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="splVoxLib\sMIShopSettings.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\ImageProcessing.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\Matrix.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\NoiseModel.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\OpticalFlow.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\project.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\Stochastic.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\Vector.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\GaussianPyramid.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\Image.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow\ImageIO.h">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyShellTreeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellListFilewView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStaticCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sMIShop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sMIShopDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sMIShopView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="splVoxLib\Voxel.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="splVoxLib\VoxelShell.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="splVoxLib\Util.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticalFlow\OpticalFlow.cpp">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticalFlow\Stochastic.cpp">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticalFlow\GaussianPyramid.cpp">
+      <Filter>Algorithm\OpticalFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyShellTreeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellListFilewView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStaticCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sMIShop.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
